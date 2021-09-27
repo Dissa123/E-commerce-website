@@ -1,0 +1,26 @@
+The basic web pages have to be designed properly along with user input validation. (Client side validation)
+ Sample “must have” pages
+•	Home Page                  ----------------------------------x
+•	Product /Service Display   ----------------------------------x
+•	Product detail Page       -----------------------------------x
+•	Add and View Cart          ----------------------------------x
+•	User Login                 ---------------------------------x
+•	Registration               ---------------------------------x
+•	Contact Us  / About Us     ---------------------------------x
+•	Privacy Policy /  Terms & Conditions -------------------------------x
+
+
+When a registered user signs in to the system they must be able to do the following functionalities
+•	View his / her Account / Profile
+•	View purchase history.
+•	View Order Tracking  
+•	View Shopping Cart    ---------------------------------------x
+•	Sign out              ---------------------------------------x
+
+
+There should be web master to manage the web site. Where he can log in to system and update and manage the content. Web master should be able to add, update and delete content. 
+ Example: 
+•	User Management - Administrators /  Users / Customer  
+•	Product Management ---------------------x
+•	Order Management 
+•	FAQ Management 

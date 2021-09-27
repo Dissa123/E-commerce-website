@@ -1,0 +1,21 @@
+.maintb .tb th{
+    color: white;
+    background-color: rgb(145, 93, 93);
+    padding: 10px;
+    
+}
+
+.maintb .tb td{
+    background-color: rgb(250, 250, 250);
+    padding: 10px;
+}
+
+.maintb .tb{
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: -20rem;
+    width: 80%;
+    top:-26rem;
+    left: 60px;
+}

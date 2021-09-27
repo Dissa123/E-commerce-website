@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #E3E3E3;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container{
+    width: 50%;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border: 2px solid white;
+    
+}
+
+.container .left{
+    float: left;
+    width: 50%;
+    height: 600px;
+    background: url("img/l.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.container .right{
+    float: right;
+    width: 50%;
+    height: 600px;
+    box-sizing: border-box;
+    
+}
+
+.formBox{
+    width: 100%;
+    padding: 80px 40px;
+    height: 600px;
+    box-sizing: border-box;
+    position: relative;
+    left: 10px;
+}
+
+.formBox p{
+    margin: 5px;
+    padding: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.formBox input{
+    width: 80%;
+    margin-bottom: 40px;
+   
+    
+}
+
+.formBox input[type="email"],
+.formBox input[type="password"]
+{
+    border-radius: 20px ;
+    padding: 8px;
+    
+    
+}
+.formBox input[type="email"]:focus,
+.formBox input[type="password"]:focus
+{
+    border-radius:20px;
+}
+.formBox input[type="submit"]{
+    border: none;
+    outline: none;
+    color:white;
+    border-radius: 20px;
+    background-color: black;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    left: 15px;
+    
+}
+.formBox p.one{
+    position: relative;
+    left: 55px;
+}

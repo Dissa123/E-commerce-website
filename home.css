@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #E3E3E3;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+   
+}
+
+nav{
+    height: 80px;
+   
+}
+
+nav h1{
+    width: 150px;
+    position: absolute;
+    top:20px;
+    left: 3%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 100px;
+    left: -100%;
+    transition: all .5s;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    position: relative;
+    color: black;
+    font-size: 18px;
+    padding: 5px 0;
+    
+}
+
+nav ul li a:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+
+nav ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+nav i.fa-user-circle{
+
+   float:right;
+   line-height: 80px;
+   position: relative;
+   left: 28rem;
+}
+
+label #btn,
+label #cancel{
+    color: rgb(10, 10, 10);
+    font-size: 30px;
+    float:right;
+    line-height: 80px;
+    margin-right: 80px;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display: none;
+    
+}
+
+/*Add to card icon*/
+i.fa-cart-arrow-down{
+   float:right;
+   margin-left: 96rem;
+   position: relative;
+   right: 29px;
+   top:24rem;
+   
+   
+}
+
+
+/*man img style*/
+.twoo img.man{
+    position: relative;
+    top:-60px;
+    height: 900px;
+    margin-left: 40rem;
+    display: flex;
+    float: right;
+    z-index: 0;
+}
+.word{
+    float: left;
+    position: relative;
+    top:-620px;
+    margin-left: 18rem;
+    word-spacing: 2px;
+    transform: rotate(-90deg);
+    font-size: 66px;
+}
+.word h1.two{
+    position: relative;
+    left: 77px;
+    
+}
+
+
+/*Description one*/
+
+.text{
+    position: relative;
+    top: 10rem;
+    right: 5rem;
+    height: 40px;
+    
+}
+.img img{
+    position: relative;
+    left: 30rem;
+    top: -40px;
+}
+/*Description two*/
+
+.text2{
+    position: relative;
+    left: 70rem;
+    top: 12rem;
+}
+.img2 img{
+    position: relative;
+    left: 20rem;
+    top:-60px;
+}
+
+/*Description three*/
+.text3{
+    position: relative;
+    top: 12rem;
+    left: 30rem;
+    height: 40px;
+    
+}
+
+.img3 img{
+    position: relative;
+    left: 76rem;
+}
+button{
+    padding: 10px;
+    position: relative;
+    top: 80px;
+}
+
+p{
+    position: relative;
+    top: 50px;
+    right: 5rem;
+}
+h1{
+    position: relative;
+    top:20px;
+    right: 60px;
+}
+.fa-user-circle:hover{
+    transform:scale(2);
+    color: aqua;
+}
+
+
+/*contact us */
+.contact{
+    width: 100%;
+    
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    height: 34rem;
+    
+
+    
+}
+
+.contact h1{
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.f{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.f form{
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form .Message
+{
+        margin-top: 1rem;
+        border: none;
+        outline: none;
+        border: 1px solid rgb(180, 178, 178);
+        padding: 20px 20px 20px 20px;
+        width: 60%;
+}
+
+form input[type="submit"]{
+    border: none;
+    background-color: rgb(24, 24, 26);
+    border: 1px solid black;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 3px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+p.t{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1rem;
+    right: 4rem;
+    background-color: #4caf50;
+    padding: 5px;
+    left: 1px;
+}
+
+
+
+
+
+/*Navigation bar Responsive*/
+
+
+
+
+
+
+/*LapTop Virsion*/
+
+@media screen and (max-width:1597px){
+.twoo img.man{
+    height: 700px;
+    top: -70px;
+}
+
+
+.word{
+    float: left;
+    position: relative;
+    top:-420px;
+    margin-left: 18rem;
+    word-spacing: 2px;
+    transform: rotate(-90deg);
+    font-size: 46px;
+}
+.word h1.two{
+    position: relative;
+    left: 77px;
+}
+i.fa-cart-arrow-down{
+    position: absolute;
+    display: block;
+    margin: auto;
+    
+}
+.text2{
+    position: relative;
+    left: 60rem;
+    top: 20rem;
+}
+.img2 img{
+    position: relative;
+    left: 6rem;
+}
+.text3{
+    position: relative;
+    top: 20rem;
+    left: 30rem;
+    height: 40px;
+    
+}
+
+.img3 img{
+    position: relative;
+    left: 66rem;
+}
+
+
+}
+
